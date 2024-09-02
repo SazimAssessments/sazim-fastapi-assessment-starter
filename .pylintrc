@@ -1,0 +1,27 @@
+[MASTER]
+# Specify a configuration file.
+init-hook='import sys; sys.path.append(".")'
+
+[FORMAT]
+# Maximum number of characters on a single line.
+max-line-length = 88
+disable = W0621
+
+[MESSAGES CONTROL]
+# Disable the following messages (e.g., C0114 for missing module docstring)
+disable=C0114, C0115, C0116, R0903
+
+[REPORTS]
+# Tells whether to display a full report or only the messages.
+reports=no
+
+[DESIGN]
+# Maximum number of arguments for a function/method.
+max-args=5
+
+[RECHECK]
+# Maximum number of nested blocks for function/method body.
+max-nested-blocks=5
+
+# Set to false to stop Pylint from emitting warnings for wildcard imports.
+ignore-patterns=__init__.py

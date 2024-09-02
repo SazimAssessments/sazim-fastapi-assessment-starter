@@ -1,0 +1,18 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0114",
+        "--disable=C0115",
+        "--disable=C0116"  
+    ],
+    "python.linting.lintOnSave": true,
+
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length", "88",
+        "--skip-string-normalization"
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+}
